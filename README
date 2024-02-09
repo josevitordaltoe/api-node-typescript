@@ -1,0 +1,18 @@
+Cidades(PRIVADO)
+  GET     /Cidades      Busca uma lista de cidades, com paginação e filtro por nome, filtro por id
+  POST    /cidades      Cria uma nova cidades
+  GET     /cidades:id   Busca apenas uma cidade pelo ID
+  PUT     /cidades/:id  Atualiza uma cidade pelo ID
+  DELETE  /cidades/:id  Apaga a cidade pelo seu ID
+
+Pessoas (Privado)
+  GET     /Pessoas      Busca uma lista de pessoas, com paginação e filtro por nome
+  POST    /pessoas      Cria uma nova pessoa
+  GET     /pessoas/:id  retorna apenas uma pessoa pelo seu ID
+  PUT     /pessoas/:id  Atualiza uma pessoa pelo seu id
+  DELETE  /pessoas/:id  Apaga uma pessoa pelo seu id
+
+Login(Publico)
+  POST    /entrar       permita um usuario existente gerar um token para acessar o endpoint privado
+  POST    /cadastrar    permite criar um novo usuario
+
